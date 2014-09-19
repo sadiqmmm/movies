@@ -11,7 +11,7 @@ a {
 }
 
 a:link:after, a:visited:after {
-content: " (" attr(href) ") ";
+/*content: " (" attr(href) ") "; */
 font-size: 70%;
 }
 

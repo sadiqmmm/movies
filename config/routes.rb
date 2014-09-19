@@ -1,8 +1,18 @@
 Movies::Application.routes.draw do
-  root to: "say#hello"
-  
+  get "page/home"
+  get "page/about_us"
+  get "page/contact_us"
+  get "page/products"
+  get "page/newsletter"
+  get "page/blog"
+  get "page/calender"
+  get "page/articles"
+  get "page/login"
+
   get "say/hello"
   get "say/goodbye"
+
+  root to: "page#home"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
